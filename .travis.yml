@@ -8,7 +8,7 @@ cache:
   - $HOME/.m2
 jobs:
   include:
-    - stage: CI CD For WSO2 API Cloud 
+    - stage: CI CD For WSO2 API Cloud Management
       install:
       - npm install newman
       script:
